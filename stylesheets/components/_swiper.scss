@@ -1,0 +1,34 @@
+.swiper {
+    width: 100%;
+    height: 100%;       
+  }
+.reviewItem {
+    max-width: 352px;    
+    border-radius: 12px;
+    margin: 0 auto;
+    padding: 32px;   
+    z-index: 50;   
+    .reviewPerson {
+        top: -50px;
+        left: 32px;
+    }
+    .reviewItem-text {
+        border-bottom: 1px solid #ddd;        
+    }
+}
+.reviewItemStar {
+    i {
+        padding-left: 8px;
+    }
+    
+}
+
+.swiper-pagination-bullet {
+    background: #dddddd 0% 0% no-repeat padding-box;
+  }
+  
+  .swiper-pagination-bullet-active {
+    width: 16px;
+    background: #ffd153 0% 0% no-repeat padding-box;
+    border-radius: 50px;
+  }

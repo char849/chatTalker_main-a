@@ -1,0 +1,28 @@
+.top {
+    position: fixed;
+    right: 3rem;
+    bottom: 3rem;
+    z-index: 3;
+    width: 71px;
+    height: 71px;
+    color: #fff;
+    background-color: $primary;
+    border-radius: 50%;
+    opacity: 0;
+    visibility: hidden; 
+    font-weight: bold;       
+    &:hover {
+        background-color: $secondary;
+        color: #fff;        
+      }
+    &.isShow {
+    opacity: 1;
+    visibility: visible;
+    }
+}
+
+.top-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
