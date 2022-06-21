@@ -672,7 +672,7 @@ progress {
 
 @media (min-width: 1200px) {
   .container, .container-sm, .container-md, .container-lg, .container-xl {
-    max-width: 1140px;
+    max-width: 1120px;
   }
 }
 
@@ -13694,6 +13694,7 @@ footer {
   margin: 0 auto;
   padding: 32px;
   z-index: 50;
+  background-color: #fff;
 }
 
 .reviewItem .reviewPerson {
